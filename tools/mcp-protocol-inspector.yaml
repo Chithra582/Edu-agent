@@ -1,0 +1,13 @@
+name: "mcp-protocol-inspector"
+description: "Audits Model Context Protocol server implementations for standard tool and resource schema compliance."
+input_schema:
+  type: "object"
+  properties:
+    server_code_path:
+      type: "string"
+      description: "Path to student MCP server script."
+    check_resources:
+      type: "boolean"
+      description: "Whether to validate resource URI templates alongside tools."
+  required:
+    - "server_code_path"

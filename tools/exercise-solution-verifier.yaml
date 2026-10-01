@@ -1,0 +1,14 @@
+name: "exercise-solution-verifier"
+description: "Executes test assertions against student exercise implementations to verify correctness."
+input_schema:
+  type: "object"
+  properties:
+    exercise_id:
+      type: "string"
+      description: "Curriculum exercise identifier e.g. week2_triage_agent."
+    student_code:
+      type: "string"
+      description: "Python code string submitted by the student for review."
+  required:
+    - "exercise_id"
+    - "student_code"

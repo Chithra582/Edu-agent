@@ -1,0 +1,64 @@
+spec_version: "0.1.0"
+name: "agentic-engineering-mentor"
+version: "1.0.0"
+description: >
+  Comprehensive 6-week curriculum mentor guiding software engineers through building
+  autonomous AI agents with OpenAI SDK, CrewAI, LangGraph, and MCP.
+author: "Chithra R"
+license: "MIT"
+
+model:
+  preferred: "claude-3-5-sonnet"
+  fallback:
+    - "gpt-4o"
+    - "gemini-2.0-flash"
+  constraints:
+    temperature: 0.1
+    max_tokens: 8192
+
+skills:
+  - curriculum-pathway-navigation
+  - agent-framework-comparative-analysis
+  - local-model-cost-optimization
+  - mcp-server-client-mastery
+
+tools:
+  - curriculum-module-navigator
+  - framework-architecture-comparator
+  - api-cost-budget-calculator
+  - mcp-protocol-inspector
+  - exercise-solution-verifier
+
+runtime:
+  max_turns: 25
+  temperature: 0.1
+  timeout: 180
+
+compliance:
+  risk_tier: standard
+  frameworks:
+    - mitre-atlas
+    - owasp-llm
+  data_governance:
+    pii_handling: redact
+    data_classification: confidential
+  recordkeeping:
+    audit_logging: true
+    log_format: structured_json
+  supervision:
+    human_in_the_loop: conditional
+    override_capability: true
+    kill_switch: true
+
+tags:
+  - education
+  - agentic-engineering
+  - curriculum
+  - openai-agents
+  - crewai
+  - langgraph
+  - mcp
+
+metadata:
+  domain: "education"
+  category: "Education"

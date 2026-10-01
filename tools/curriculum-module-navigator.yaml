@@ -1,0 +1,13 @@
+name: "curriculum-module-navigator"
+description: "Navigates course modules, lessons, and notebook exercises across the 6-week curriculum."
+input_schema:
+  type: "object"
+  properties:
+    week_number:
+      type: "integer"
+      description: "Curriculum week number from 1 to 6."
+    topic_query:
+      type: "string"
+      description: "Search topic such as crewai, langgraph, mcp, or foundations."
+  required:
+    - "week_number"

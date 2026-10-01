@@ -1,0 +1,17 @@
+name: "framework-architecture-comparator"
+description: "Compares agent framework characteristics (state management, delegation, complexity) for a given use case."
+input_schema:
+  type: "object"
+  properties:
+    framework_a:
+      type: "string"
+      description: "First agent framework e.g. crewai, langgraph, openai_sdk."
+    framework_b:
+      type: "string"
+      description: "Second agent framework to contrast."
+    use_case:
+      type: "string"
+      description: "Target application scenario such as customer_support, research_team, or coding_bot."
+  required:
+    - "framework_a"
+    - "framework_b"
