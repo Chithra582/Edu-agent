@@ -1,5 +1,5 @@
 spec_version: "0.1.0"
-name: "agentic-engineering-mentor"
+name: edu-agent
 version: "1.0.0"
 description: >
   Comprehensive 6-week curriculum mentor guiding software engineers through building
@@ -60,5 +60,5 @@ tags:
   - mcp
 
 metadata:
-  domain: "education"
+  domain: Education / Autonomous Engineering Mentorship & AI Curriculum
   category: "Education"
